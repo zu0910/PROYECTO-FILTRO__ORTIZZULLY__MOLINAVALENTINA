@@ -1,76 +1,18 @@
-@font-face {
-    font-family: letra1;
-    src: url(fuente/MYRIADPRO-REGULAR.OTF);
-}
-@font-face {
-    font-family: letra2;
-    src: url(fuente/MyriadPro-Light.otf);
-}
-*{
-    margin: 0;
-    padding: 0;
-}
 body{
-    background-image: url(img/fondo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-color: black;
 }
-.contenedor{
-    background-color: white;
-    width: 55vw;
-    height: 45vw;
-    margin: 9vw  auto;
-    border-radius: 3vw;
-    text-align: center;
-
+.fondo img{
+    width: 99vw;
+    height: 47.8vw;
 }
-.contenedor img{
-    margin: 2vw 0;
+.logo{
+    margin-top: -29vw;
+    margin-left: 45vw;
+    animation-name: animaciónLogo;
+    animation-duration: 2s;
+    opacity: 1;
 }
-.bienvenido{
-    font-size: 2vw;
-    font-family: letra1;
-}
-.p1{
-    font-size: 1.2vw;
-    margin-top: 2vw;    
-    font-family: letra2;
-
-}
-.bloque{
-    width: 35.2vw;
-    margin-left: 10vw;
-    font-family: letra2;
-
-}
-.letraFormu{
-    display: flex;
-    justify-content: flex-start;
-    font-size: 1.2vw;
-}
-.formu{
-    width: 35vw;
-    height: 2.6vw;
-    border-radius: 1.1vw;
-    font-size: 1.5vw;
-}
-.BotonIngresar{
-    width: 14vw;
-    height: 3vw;
-    margin-left: 10vw;
-    margin-top: 2.4vw;
-    border-radius: 0.8vw;
-    background-color: #ff741c;
-}
-.pBoton{
-    color: white;
-    font-size: 1.2vw;
-    padding-top: 0.6vw;
-    font-family: letra2;
-
-}
-.p2{
-    font-size: 0.8vw;
-    margin-top: 2vw;
+.logo img{
+    width: 9vw;
+    height: 9vw;
 }
