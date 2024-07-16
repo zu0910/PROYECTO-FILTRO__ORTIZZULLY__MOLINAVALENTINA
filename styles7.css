@@ -114,50 +114,100 @@ body{
     font-size: 1.3vw;
 }
 .titulos .indi{
-    margin-left: 1vw;
+    margin-left: -4vw;
 }
 .titulos .descrip{
-    margin-left: 3vw;
+    margin-left: 0.5vw;
 }
 .titulos .cate{
     margin-left: 3vw;
 }
 .titulos .inicio{
-    margin-left: -1vw;
+    margin-left: -2vw;
 }
 .titulos .final{
-    margin-left: -2vw;
+    margin-left: vw;
 }
 .titulos .formu{
-    margin-left: -2vw;
+    margin-left: -6vw;
 }
 .titulos .frecu{
-    margin-left: -2.3vw;
+    margin-left: -8vw;
 }
 .titulos .cumpli{
-    margin-left: -3.5vw;
+    margin-left: -10vw;
 }
 .titulos .area{
-    margin-left: -3vw;
+    margin-left: -8vw;
+}
+.datos{
+    width: 93vw;
+    height: 3.4vw;
+    border: 2px solid gray;
+    border-radius: 1.5vw;
+    margin: 1vw 2vw;
 }
 .filas{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 91vw;
-    height: 4vw;
-    border: 2px solid gray;
-    border-radius: 1.5vw;
-    text-align: center;
-    margin: 0 4vw;
-}
-.filas p.indicador{
-    margin-left: 1vw;
-}
-.filas p.descripcion{
-    text-align: center;
-    justify-content: center;
-}
-.filas p{
+    margin: 1vw 1vw;
     font-size: 1vw;
-    margin: auto;
+}
+.filas .indicador{
+    width: 10vw;
+    height: 1vw;
+}
+.filas .Descripcion{
+    width: 10vw;
+    height: 1vw;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.filas .categoria{
+    width: 4vw;
+    height: 1vw;
+    text-align: center;
+   justify-content: space-evenly;
+}
+.filas .fechaini{
+    width: 4vw;
+    height: 1vw;
+}
+.filas .fechafin{
+    width: 4vw;
+    height: 1vw;
+    justify-content: space-between;
+}
+.filas .formula{
+    width: 4vw;
+    height: 1vw;
+    justify-content: space-between;
+}
+.filas .Frecuencia{
+    width: 1.5vw;
+    height: 1vw;
+    justify-content: space-between;
+}
+.filas .areaa{
+    width: 5vw;
+    height: 1vw;
+    justify-content: space-between;
+}
+.menu{
+    position: absolute;
+    margin: 0vw 94vw;
+    margin-top: -2.3vw;
+    width: 1.8vw;
+    height: 1.5vw;
+}
+.boton{
+    width: 7vw;
+    height: 1vw;
+    background-color: #ff6f2c;
+    padding: 1vw 3vw;
+    margin: 2vw 44vw;
+    border-radius: 2vw;
+    color: white;
+    font-size: 1vw;
 }
