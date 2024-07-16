@@ -1,0 +1,118 @@
+@font-face {
+    font-family: letra1;
+    src: url(fuente/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: letra2;
+    src: url(fuente/MyriadPro-Light.otf);
+}
+body{
+    background-color: black;
+}
+.fondo{
+    width: 98.5vw;
+    height: 50vw;
+}
+.barraSuper{ 
+    position: relative;
+    height: 3.5vw;
+    margin-top: -50.6vw;
+    margin-left: -0.2vw;
+    background-color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+}
+.botonImg{
+    position: relative;
+    left: 5.1vw;
+    width: 1.2vw;
+    height: 1.3vw;
+    margin-top: 1vw;
+
+}
+.barraSuper a{
+    color: black;
+    margin-left: 1vw;
+    margin-top: 1.2vw;
+    text-decoration: none;
+}
+.loguito{
+    width: 1.5vw;
+    height: 1.5;
+    margin-left: 7vw;
+}
+.img1{
+    position: relative;
+    left: 5vw;
+    margin-top: 1vw;
+    width: 1.2vw;
+    height: 1.3vw;
+}
+.img2{
+    position: relative;
+    left: 2.7vw;
+    margin-top: 1vw;
+    width: 1.2vw;
+    height: 1.3vw;
+
+}
+.foto{
+    width: 3vw;
+    height: 3vw;
+    margin-top: 0.3vw;
+}
+/*---------------------------------------------*/
+.bloqueAñadir{
+    position: relative;
+    margin-top: 5vw;
+    margin-left: 31vw;
+    width: 40VW;
+    height: 39vw;
+    background-color: white;
+    display:grid;
+    justify-content: center;
+    border-radius: 2vw;
+}
+.letras{
+    display: flex;
+    justify-content: center;
+}
+.letras img{
+    width: 2vw;
+    height: 2vw;
+    margin-top: 1.5vw;
+}
+.titulo{
+    position: relative;
+    left: 0.4vw;
+    top: -0.6vw;
+    font-size: 1.9vw;
+    font-family: letra1;
+}
+.letrasPq{
+    margin-top: 4vw;
+    margin-left: -9.4vw;
+    font-size: 1.1vw;
+    font-family: letra2;
+}
+.input input{
+    width: 30vw;
+    height: 1.8vw;
+    border-radius: 0.8vw;
+    border-color: #ff741c;
+    border-style: solid;
+    font-size: 1vw;
+    font-family: letra1;
+}
+.botonAñEle{
+    width: 13vw;
+    height: 2.4vw;
+    margin-top: -1vw;
+    margin-left: 9vw;
+    border-radius: 1vw;
+    background-color: #ff741c;
+}
+.botonAñEle p{
+    margin-left: 2.2vw;
+}
