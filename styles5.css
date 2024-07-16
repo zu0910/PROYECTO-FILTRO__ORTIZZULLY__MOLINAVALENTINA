@@ -6,36 +6,158 @@ body{
     background-color: white;
     background-size: cover;
 }
-.superior{
+.mas{
     display: flex;
-    justify-content: space-evenly;
-    margin: 1vw;
+    margin: 2vw 7vw;
+    width: 2vw;
+    height: 2vw;
 }
-.superior p{
-    font-size: 1.2vw;
-    margin-left: 2.5vw;
-    margin-top: -1.8vw;
-}.superior img{
-    width: 1.5vw;
-    height: 1.5vw;
+.mas a{
+    text-decoration: none;
+    color: black;
+    margin: 0.2vw 0.8vw;
+    font-size: 1.3vw;
 }
-.configuracion{
-    width: 0.5vw;
-    height: 0.5vw;
+.refres{
     display: flex;
+    margin: -4vw 19vw;
+    width: 1.7vw;
+    height: 1.7vw;
+}
+.refres a{
+    text-decoration: none;
+    color: black;
+    margin: 0.2vw 0.8vw;
+    font-size: 1.3vw;
+}
+.eliminar{
+    display: flex;
+    margin: 2vw 33vw;
+    width: 2vw;
+    height: 2vw;
+}
+.eliminar a{
+    text-decoration: none;
+    color: black;
+    margin: 0.5vw 1vw;
+    font-size: 1.3vw;
+}
+.logo{
+    display: flex;
+    margin: -4.5vw 50vw;
+    width: 3vw;
+    height: 3vw;
+}
+.reportar{
+    display: flex;
+    margin: 2vw 63vw;
+    width: 2vw;
+    height: 2vw;
+}
+.reportar a{
+    text-decoration: none;
+    color: black;
+    margin: 0.5vw 1vw;
+    font-size: 1.3vw;
+}
+.ayuda{
+    display: flex;
+    margin: -4vw 77vw;
+    width: 2vw;
+    height: 2vw;
+}
+.ayuda a{
+    text-decoration: none;
+    color: black;
+    margin: 0.5vw 1vw;
+    font-size: 1.3vw;
+}
+.icono{
+    margin: 2.5vw 89vw;
+    width: 1.4vw;
+    height: 1.4vw;
+}
+.icono1{
+    position: absolute;
+    top: 2.2vw;
+    margin: 0 92vw;
+    width: 1.4vw;
+    height: 1.4vw;
+}
+.photo{
+    position: absolute;
+    top: 1.3vw;
+    margin: 0vw 95vw;
+    width: 3.5vw;
+    height: 3.5vw;
 }
 .linea{
     width: 100vw;
     height: 0.1vw;
     background-color: gray;
+    margin-top: -1vw;
 }
 .panel{
     text-align: center;
 }
 .titu{
-    font-size: 1.7vw;
+    font-size: 2vw;
     margin: 1vw;
 }
 .aqui{
-    font-size: 0.8vw;
+    font-size: 1vw;
+}
+.titulos{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vw;
+    font-size: 1.3vw;
+}
+.titulos .indi{
+    margin-left: 1vw;
+}
+.titulos .descrip{
+    margin-left: 3vw;
+}
+.titulos .cate{
+    margin-left: 3vw;
+}
+.titulos .inicio{
+    margin-left: -1vw;
+}
+.titulos .final{
+    margin-left: -2vw;
+}
+.titulos .formu{
+    margin-left: -2vw;
+}
+.titulos .frecu{
+    margin-left: -2.3vw;
+}
+.titulos .cumpli{
+    margin-left: -3.5vw;
+}
+.titulos .area{
+    margin-left: -3vw;
+}
+.filas{
+    display: flex;
+    justify-content: space-around;
+    width: 91vw;
+    height: 4vw;
+    border: 2px solid gray;
+    border-radius: 1.5vw;
+    text-align: center;
+    margin: 0 4vw;
+}
+.filas p.indicador{
+    margin-left: 1vw;
+}
+.filas p.descripcion{
+    text-align: center;
+    justify-content: center;
+}
+.filas p{
+    font-size: 1vw;
+    margin: auto;
 }
