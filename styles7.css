@@ -1,213 +1,61 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: white;
-    background-size: cover;
-}
-.mas{
-    display: flex;
-    margin: 2vw 7vw;
-    width: 2vw;
-    height: 2vw;
-}
-.mas a{
-    text-decoration: none;
-    color: black;
-    margin: 0.2vw 0.8vw;
-    font-size: 1.3vw;
-}
-.refres{
-    display: flex;
-    margin: -4vw 19vw;
-    width: 1.7vw;
-    height: 1.7vw;
-}
-.refres a{
-    text-decoration: none;
-    color: black;
-    margin: 0.2vw 0.8vw;
-    font-size: 1.3vw;
-}
-.eliminar{
-    display: flex;
-    margin: 2vw 33vw;
-    width: 2vw;
-    height: 2vw;
-}
-.eliminar a{
-    text-decoration: none;
-    color: black;
-    margin: 0.5vw 1vw;
-    font-size: 1.3vw;
-}
-.logo{
-    display: flex;
-    margin: -4.5vw 50vw;
-    width: 3vw;
-    height: 3vw;
-}
-.reportar{
-    display: flex;
-    margin: 2vw 63vw;
-    width: 2vw;
-    height: 2vw;
-}
-.reportar a{
-    text-decoration: none;
-    color: black;
-    margin: 0.5vw 1vw;
-    font-size: 1.3vw;
-}
-.ayuda{
-    display: flex;
-    margin: -4vw 77vw;
-    width: 2vw;
-    height: 2vw;
-}
-.ayuda a{
-    text-decoration: none;
-    color: black;
-    margin: 0.5vw 1vw;
-    font-size: 1.3vw;
-}
-.icono{
-    margin: 2.5vw 89vw;
-    width: 1.4vw;
-    height: 1.4vw;
-}
-.icono1{
-    position: absolute;
-    top: 2.2vw;
-    margin: 0 92vw;
-    width: 1.4vw;
-    height: 1.4vw;
-}
-.photo{
-    position: absolute;
-    top: 1.3vw;
-    margin: 0vw 95vw;
-    width: 3.5vw;
-    height: 3.5vw;
-}
-.linea{
+.barraSuper{ 
     width: 100vw;
-    height: 0.1vw;
-    background-color: gray;
+    margin-left: -0.7vw;
     margin-top: -1vw;
-}
-.panel{
-    text-align: center;
-}
-.titu{
-    font-size: 2vw;
-    margin: 1vw;
-}
-.aqui{
-    font-size: 1vw;
-}
-.titulos{
+    height: 3.5vw;
     display: flex;
     justify-content: space-around;
-    margin: 2vw;
-    font-size: 1.3vw;
+    border-style: solid;
+    border-color: rgb(227, 222, 222);
 }
-.titulos .indi{
-    margin-left: -4vw;
+.botonImg{
+    position: relative;
+    left: 5.1vw;
+    width: 1.2vw;
+    height: 1.3vw;
+    margin-top: 1vw;
+
 }
-.titulos .descrip{
-    margin-left: 0.5vw;
+.barraSuper a{
+    color: black;
+    margin-left: 1.6vw;
+    margin-top: 1vw;
+    text-decoration: none;
 }
-.titulos .cate{
-    margin-left: 3vw;
-}
-.titulos .inicio{
-    margin-left: -2vw;
-}
-.titulos .final{
-    margin-left: vw;
-}
-.titulos .formu{
-    margin-left: -6vw;
-}
-.titulos .frecu{
-    margin-left: -8vw;
-}
-.titulos .cumpli{
-    margin-left: -10vw;
-}
-.titulos .area{
-    margin-left: -8vw;
-}
-.datos{
-    width: 93vw;
-    height: 3.4vw;
-    border: 2px solid gray;
-    border-radius: 1.5vw;
-    margin: 1vw 2vw;
-}
-.filas{
-    display: flex;
-    justify-content: space-between;
-    width: 91vw;
-    margin: 1vw 1vw;
-    font-size: 1vw;
-}
-.filas .indicador{
-    width: 10vw;
-    height: 1vw;
-}
-.filas .Descripcion{
-    width: 10vw;
-    height: 1vw;
-    text-align: center;
-    justify-content: space-evenly;
-}
-.filas .categoria{
-    width: 4vw;
-    height: 1vw;
-    text-align: center;
-   justify-content: space-evenly;
-}
-.filas .fechaini{
-    width: 4vw;
-    height: 1vw;
-}
-.filas .fechafin{
-    width: 4vw;
-    height: 1vw;
-    justify-content: space-between;
-}
-.filas .formula{
-    width: 4vw;
-    height: 1vw;
-    justify-content: space-between;
-}
-.filas .Frecuencia{
+.loguito{
     width: 1.5vw;
-    height: 1vw;
-    justify-content: space-between;
+    height: 1.5;
+    margin-left: 7vw;
 }
-.filas .areaa{
-    width: 5vw;
-    height: 1vw;
-    justify-content: space-between;
+.img1{
+    position: relative;
+    left: 5vw;
+    margin-top: 1vw;
+    width: 1.2vw;
+    height: 1.3vw;
 }
-.menu{
-    position: absolute;
-    margin: 0vw 94vw;
-    margin-top: -2.3vw;
-    width: 1.8vw;
-    height: 1.5vw;
+.img2{
+    position: relative;
+    left: 2.7vw;
+    margin-top: 1vw;
+    width: 1.2vw;
+    height: 1.3vw;
+
 }
-.boton{
-    width: 7vw;
-    height: 1vw;
-    background-color: #ff6f2c;
-    padding: 1vw 3vw;
-    margin: 2vw 44vw;
-    border-radius: 2vw;
-    color: white;
-    font-size: 1vw;
+.foto{
+    width: 3vw;
+    height: 3vw;
+    margin-top: 0.3vw;
+}
+/*--------------------------------------------*/
+.bloque1 p{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    font-size: 2vw;
+}
+.textoTitulo{
+    font-size: 1.2vw;
 }
