@@ -104,9 +104,9 @@ body{
     margin-left: 6vw;
     border: #ff6f2c 0.11vw solid;
     border-radius: 1vw;
-    margin-top: 2vw;
-    font-size: 1.5vw;
-    padding: 1vw;
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    padding: 0.8vw 1vw;
 }
 .preguntas{
     width: 43vw;
@@ -119,13 +119,14 @@ body{
     font-size: 1.5vw;
     margin: 2vw auto;
 }
-input{
+textarea{
     margin-top: 1vw;
     border: none;
     background-color: rgb(221, 219, 219);
     width: 33vw;
     height: 5vw;
     font-size: 1.2vw;
+    outline: none;
 }
 .repor{
     width: 10vw;

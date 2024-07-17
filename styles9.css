@@ -96,7 +96,7 @@ body{
     font-size: 1.9vw;
     margin-top: -6vw;
 }
-input.opc{
+.opc{
     width: 53vw;
     height: 3vw;
     margin-left: 3vw;
@@ -104,6 +104,16 @@ input.opc{
     border-radius: 2vw;
     margin-top: 2vw;
     font-size: 1.5vw;
+    background-color: #fafafa;
+}
+input.opci{
+    width: 50vw;
+    height: 2vw;
+    border: none;
+    margin: 0.5vw 1vw;
+    font-size: 1vw;
+    background-color: #fafafa;
+    outline: none;
 }
 .repor{
     width: 12vw;
@@ -115,4 +125,5 @@ input.opc{
     font-size: 1vw;
     border-radius: 2vw;
     background-color: #ff6f2c;
+    padding-inline: 2vw;
 }
