@@ -1,0 +1,118 @@
+@font-face {
+    font-family: letra1;
+    src: url(fuente/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: letra2;
+    src: url(fuente/MyriadPro-Light.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    background-image: url(image/pexels-pixabay-159400@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo{
+    width: 100vw;
+    height: 57vw;
+}
+.barraSuper{ 
+    position: relative;
+    height: 3.5vw;
+    width: 100vw;
+    margin-top: -57.3vw;
+    background-color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+}
+.botonImg{
+    position: relative;
+    left: 5.1vw;
+    width: 1.2vw;
+    height: 1.3vw;
+    margin-top: 1vw;
+
+}
+.barraSuper a{
+    color: black;
+    margin-left: 1vw;
+    margin-top: 1.2vw;
+    text-decoration: none;
+}
+.loguito{
+    width: 1.5vw;
+    height: 1.5;
+    margin-left: 7vw;
+}
+.img1{
+    position: relative;
+    left: 5vw;
+    margin-top: 1vw;
+    width: 1.2vw;
+    height: 1.3vw;
+}
+.img2{
+    position: relative;
+    left: 2.7vw;
+    margin-top: 1vw;
+    width: 1.2vw;
+    height: 1.3vw;
+}
+.foto{
+    width: 3vw;
+    height: 3vw;
+    margin-top: 0.3vw;
+}
+.blanco{
+    width: 60vw;
+    height: 37vw;
+    background-color: white;
+    border-radius: 4vw;
+    margin: 5vw auto;
+}
+.eliminar{
+    display: flex;
+    margin: 4vw 0;
+    justify-content: center;
+}
+.eliminar p.titulo{
+    font-size: 2.2vw;
+    margin: 4vw;
+}
+.eliminar img{
+    position: absolute;
+    width: 2vw;
+    height: 2.3vw;
+    margin-left: -15vw;
+    top: 12.5vw;
+}
+.rellena{
+    text-align: center;
+    font-size: 1.9vw;
+    margin-top: -6vw;
+}
+input.opc{
+    width: 53vw;
+    height: 3vw;
+    margin-left: 3vw;
+    border: #ff6f2c 0.2vw solid;
+    border-radius: 2vw;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+}
+.repor{
+    width: 12vw;
+    height: 1vw;
+    padding: 1.3vw 2.3vw;
+    margin: 1vw auto;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+    border-radius: 2vw;
+    background-color: #ff6f2c;
+}
