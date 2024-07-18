@@ -1,3 +1,11 @@
+@font-face {
+    font-family: letraGruesa;
+    src: url(fuente/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: letraDelgada;
+    src: url(fuente/MyriadPro-Light.otf);
+}
 .barraSuper{ 
     width: 100vw;
     margin-left: -0.7vw;
@@ -21,6 +29,7 @@
     margin-left: 1.6vw;
     margin-top: 1vw;
     text-decoration: none;
+    font-family: letraGruesa;
 }
 .loguito{
     width: 1.5vw;
@@ -55,66 +64,98 @@
 }
 .titulo{
     font-size: 2vw;
+    font-family: letraGruesa;
 }
 .textoTitulo{
     font-size: 1.2vw;
+    font-family: letraDelgada;
 }
 /*-------------------------------------------*/
 .contenedoresImf{
-    margin-top: -0.8vw;
-    margin-left: 1.5vw;
-    background-color: azure;
+    position: absolute;
+    top: 12.1em;
+    left: 4em;
     width: 90vw;
     display: flex;
     justify-content: space-around;
 }
-.tituloA{
-    margin-left: 0.7vw;
-}
-.tituloB{
-    margin-left: vw;
-}
-.tituloC{
-    margin-left: -1.2vw;
-}
 .indicadores p{
     display: grid;
-    height: 3.7vw;
+    height: 5em;
+    font-family: letraDelgada;
 }
 .descripción p{    
     display: grid;
-    height: 3.7vw;
+    height: 5em;
+    font-family: letraDelgada;
 }
 .categoria p{    
     display: grid;
-    height: 3.7vw;
+    height: 5em;
+    font-family: letraDelgada;
 }
 .fechaI p{
     display: grid;
-    height: 3.7vw;
+    height: 5em;
+    font-family: letraDelgada;
 }
 .fechaT p{
     display: grid;
-    height: 3.7vw;
+    height: 5em;
+    font-family: letraDelgada;
 }
 .fórmula p{
     display: grid;
-    height: 3.7vw;
+    height: 5em;
+    font-family: letraDelgada;
 }
 .frecuencia p{
     display: grid;
-    height:3.7vw;
+    height: 5em;
+    font-family: letraDelgada;
 }
 .cumplimiento{
-    width: 7vw;
+    display:grid;
+    height: 32vw;
 }
+
 .tituloEs{
-    margin-left: 2.5vw;
+    margin-top: 2.8em;
 }
 svg{
-    display: grid;
-    margin-top: -0.6vw;
-    height: 7.9vw;
+    position: relative;
+    left: 1vw;
+    top: 1.3em;
+    width: 3vw;
+    height:5.8em;
+}
+.cumplimiento .uno{
+    position: absolute;
+    top:7.5em;
+    left: 75vw;
+}
+.cumplimiento .dos{
+    position: absolute;
+    top:13.6em;
+    left: 75vw;
+}
+.cumplimiento .tres{
+    position: absolute;
+    top: 19.7em;
+    left: 75vw;
+}
+.cumplimiento .cuatro{
+    position: absolute;
+    top: 25.7em;
+    left: 75vw;
+}.cumplimiento .cinco{
+    position: absolute;
+    top: 32em;
+    left: 75vw;
+}.cumplimiento .seis{
+    position: absolute;
+    top: 38em;
+    left: 75vw;
 }
 .porcentajeRojo circle{
     fill: none;
@@ -142,74 +183,207 @@ svg{
     transform: rotate(-54deg);
     transform-origin: 50%;
 }
-.PorcentajeNu{
-    margin-left: 4.6vw;
-    margin-top: -4.5vw;
-}
 .área p{
     display: grid;
-    height: 3.7vw;
+    height: 5em;
+    font-family: letraDelgada;
 }
+.tituloA{
+    margin-left: 0.7vw;
+    margin-top: 2.6em;
+    font-family: letraGruesa;
 
+}
+.tituloB{
+    margin-left: vw;
+    margin-top: 2.6em;
+    font-family: letraGruesa;
+
+}
+.tituloC{
+    margin-left: -1.2vw;
+    margin-top: 2.6em;
+    font-family: letraGruesa;
+}
 /*-------------------------------------------*/
 .bloquesVacio{
-    position:absolute;
-    left: 3.5vw;
-    bottom: 7.6vw;
-    display: grid;
-    justify-content: center;
-    gap: 1.3vw;
+    position: absolute;
+    top: 75.3em;
 }
 .vacio1{
+    position: absolute;
+    left: 4em;
+    bottom: 52.2em;
     width: 88vw;
-    height: 3vw;
+    height: 4em;
     border-radius: 1.2vw;
     border-style:solid;
-    border-color: black;
+    border-color:#ff741c;
 }
 .vacio2{
+    position: absolute;
+    left: 4em;
+    bottom:46em;
     width: 88vw;
-    height: 3vw;
+    height: 4em;
     border-radius: 1.2vw;
     border-style:solid;
-    border-color: black;
+    border-color:#ff741c;
 }.vacio3{
+    position: absolute;
+    left: 4em;
+    bottom:40em;
     width: 88vw;
-    height: 3vw;
+    height: 4em;
     border-radius: 1.2vw;
     border-style:solid;
-    border-color: black;
+    border-color:#ff741c;
 }.vacio4{
+    position: absolute;
+    left: 4em;
+    bottom:34em;
     width: 88vw;
-    height: 3vw;
+    height: 4em;
     border-radius: 1.2vw;
     border-style:solid;
-    border-color: black;
+    border-color:#ff741c;
 }.vacio5{
+    position: absolute;
+    left: 4em;
+    bottom:27.7em;
     width: 88vw;
-    height: 3vw;
+    height: 4em;
     border-radius: 1.2vw;
     border-style:solid;
-    border-color: black;
+    border-color:#ff741c;
 }.vacio6{
+    position: absolute;
+    left: 4em;
+    bottom:21.6em;
     width: 88vw;
-    height: 3vw;
+    height: 4em;
     border-radius: 1.2vw;
     border-style:solid;
-    border-color: black;
+    border-color:#ff741c;
 }
+
 .imgMenusHam{
-    gap: 3vw;
-    margin-top: -28vw;
-    margin-left: 92.5vw;
+    position:relative;
+    height: 34em;
+    width: 2vw;
+    top: 6.5rem;
+    left: 92.5vw;
+    gap: 4.2em;
     display: grid;
 }
 .botonEle{
     text-align: center;
-    margin-top: 4vw;
+    margin-top: 8vw;
     margin-left: 40vw;
-    width: 12vw;
-    height: 2vw;
-    border-radius: 1vw;
+    width: 13vw;
+    height: 3vw;
+    border-radius: 1.5vw;
     background-color: #ff741c;
+}
+.botonEle a{
+    position: relative;
+    top: 0.5em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+@media screen and (max-width:1900px) {
+    .imgMenusHam{
+        display: none;
+    }
+    .porcentajeRojo p{
+        display: none;
+    }
+    .porcentajeVerde p{
+        display: none;
+    }    
+    .porcentajeAmarillo p{
+        display: none;
+    }
+    .botonEle{
+        margin-top: 48em;
+    }
+}
+@media screen and (max-width:1281px){
+    .cumplimiento{
+        display: none;
+    }
+}
+@media screen and (max-width:1224px){
+    .descripción{
+        display: none;
+    }
+    .contenedoresImf{
+        left: 4em;
+    }
+}
+@media screen and (max-width:1151px){
+    .titulo{
+        font-size: 3vw;
+    }    
+    .textoTitulo{
+        font-size: 1.7vw;
+    }
+}
+@media screen and (max-width:916px) {
+    .frecuencia{
+        display: none;
+    }
+    .titulo{
+        font-size: 4vw;
+    }    
+    .textoTitulo{
+        font-size: 2.5vw;
+    }
+    .botonEle{
+        width:16vw;
+        height:7vw;
+    }
+    .botonEle a{
+        font-size: 2.3vw;
+    }
+}
+@media screen and (max-width:747px) {
+    .fechaI{
+        display: none;
+    }
+    .fechaT{
+        display: none;
+    }
+}
+@media screen and (max-width:431px){
+    .titulo{
+        font-size: 2em;
+        color: #ff741c;
+    }
+    .textoTitulo{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .bloquesVacio{
+        right: 110vw;
+    }
+    .fórmula{
+        display: none;
+    }
+    .contenedoresImf{
+        left: 1em;
+    }
+    .botonEle{
+        width: 13em;
+        height: 3.7em;
+        margin-left: 6em;
+    }
+    .botonEle a{
+        font-size: 1.4em;
+    }
+    .bloque1{
+        margin-top:2em;
+    }
+
 }
