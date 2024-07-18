@@ -1,3 +1,4 @@
+/*-----------Fuentes personalizadas de las paginas-----------------------*/
 @font-face {
     font-family: letra1;
     src: url(fuente/MYRIADPRO-REGULAR.OTF);
@@ -11,16 +12,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*----------- fondo y color que va a tener la pagina -----------------------*/
 body{
     background-color: black;
     background-image: url(image/pexels-pixabay-159400@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .fondo{
     width: 100vw;
     height: 57vw;
 }
+/*-----------       diseño de la barra superior        ----------------------*/
 .barraSuper{ 
     position: relative;
     height: 3.5vw;
@@ -34,16 +38,18 @@ body{
 .botonImg{
     position: relative;
     left: 5.1vw;
-    width: 1.2vw;
-    height: 1.3vw;
+    width: 1.5vw;
+    height: 1.5vw;
     margin-top: 1vw;
 
 }
 .barraSuper a{
+    font-size: 1.1vw;
     color: black;
-    margin-left: 1vw;
+    margin-left: 2vw;
     margin-top: 1.2vw;
     text-decoration: none;
+    font-family: letra1;
 }
 .loguito{
     width: 1.5vw;
@@ -65,10 +71,11 @@ body{
     height: 1.3vw;
 }
 .foto{
-    width: 3vw;
-    height: 3vw;
-    margin-top: 0.3vw;
+    width: 2.9vw;
+    height: 2.9vw;
+    margin-top: 0.4vw;
 }
+/*-----------contenedor blanco donde va a estar toda la información de reportar------------------*/
 .blanco{
     width: 80vw;
     height: 43vw;
@@ -76,33 +83,40 @@ body{
     border-radius: 4vw;
     margin: 5vw auto;
 }
+/* Border naranja que esta dentro del cuadro blanco*/
 .naranja{
     width: 70vw;
-    height: 36vw;
+    height: 38vw;
     border:  #ff6f2c 0.3vw solid;
     display: block;
     margin: -45vw auto;
     border-radius: 2vw;
 }
+/* Acomodacion del titulo y texto */
 .reportar{
     display: flex;
     margin: 4vw 0;
     justify-content: center;
 }
+/* Tamaño del titulo eliminar*/
 .reportar p.titulo{
     font-size: 2.2vw;
 }
+/* posicion y tamaño del ancho y alto del logo de reportar*/
 .reportar img{
     position: absolute;
     width: 2.8vw;
     height: 2.8vw;
     margin-left: -15vw;
 }
+/* tañano y acomodación del texto */
 .reporta{
+    font-family: letra2;
     text-align: center;
     font-size: 1.9vw;
     margin-top: -2vw;
 }
+/* Cuadro del comentario */
 .describe{
     width: 55vw;
     height: 7vw;
@@ -113,7 +127,9 @@ body{
     font-size: 1.5vw;
     background-color: #fafafa;
 }
+/* cuadro para escribir el reporte*/
 textarea{
+    font-family: letra2;
     width: 52vw;
     height: 5vw;
     margin: 1vw 1vw;
@@ -122,17 +138,20 @@ textarea{
     background-color: #fafafa;
     outline: none;
 }
+/* Boton de reportar*/
 .repor{
+    font-family: letra1;
     width: 9vw;
     height: 2vw;
     padding: 0.5vw;
     text-align: center;
-    margin: 1vw auto;
+    margin: 1.4vw auto;
     color: white;
     font-size: 1vw;
     border-radius: 0.5vw;
     background-color: #ff6f2c;
 }
+/* ultimo cuadro */
 .comuni{
     width: 55vw;
     height: 2.5vw;
@@ -140,10 +159,12 @@ textarea{
     border-radius: 2vw;
     margin: auto;
 }
+/*parte del cuadro despegable de las opciones de comunicate con un asesor*/
 details{
     font-size: 1.2vw;
 }
 summary.titulo{
+    font-family: letra1;
     list-style: none;
     padding: 0.3vw 2vw;
 }
@@ -151,6 +172,7 @@ summary.titulo{
     padding: 1vw 2vw;
 }
 p.texto1{
+    font-family: letra2;
     margin-left: 1vw;
     margin-top: -2.2vw;
 }
@@ -159,6 +181,7 @@ img.icono{
     height: 1.7vw;
 }
 p.texto2{
+    font-family: letra2;
     margin-left: 1vw;
     margin-top: -2vw;
 }
@@ -173,6 +196,7 @@ img.icono3{
     margin-top: 0.6vw;
 }
 p.texto3{
+    font-family: letra2;
     margin-left: 1vw;
     margin-top: -2vw;
 }
@@ -181,4 +205,114 @@ p.texto3{
     width: 2vw;
     height: 2vw;
     margin-left: 52vw;
+}
+@media only screen and (max-width : 850px){
+    body{
+        height: 90vw;
+        width: 100vw;
+    }
+    .barraSuper{
+        margin-top: -70vw;
+    }
+    .fondo{
+        width: 100vw;
+        height: 70vw;
+    }
+    .blanco{
+        height: 75vw;
+    }
+    /* Border naranja que esta dentro del cuadro blanco*/
+    .naranja{
+        width: 70vw;
+        height: 67vw;
+        margin: -76vw auto;
+    }
+    /* Tamaño del titulo eliminar*/
+    .reportar p.titulo{
+        font-size: 5vw;
+        margin-left: 5vw;
+    }
+    /* posicion y tamaño del ancho y alto del logo de reportar*/
+    .reportar img{
+        position: absolute;
+        width: 3.5vw;
+        height: 3.5vw;
+        margin-left: -25vw;
+        margin-top: 0.9vw;
+    }
+    /* tañano y acomodación del texto */
+    .reporta{
+        font-size: 3vw;
+        margin-top: -2vw;
+    }
+    /* Cuadro del comentario */
+    .describe{
+        width: 58vw;
+        height: 17vw;
+        margin-left: 6vw;
+        margin-top: 2.5vw;
+    }
+    /* cuadro para escribir el reporte*/
+    textarea{
+        width: 52vw;
+        height: 5vw;
+        margin: 1vw 1vw;
+        font-size: 2.5vw;
+    }
+    /* Boton de reportar*/
+    .repor{
+        width: 17vw;
+        height: 4vw;
+        padding: vw;
+        margin: 3vw auto;
+        font-size: 2.5vw;
+    }
+    /* ultimo cuadro */
+    .comuni{
+        width: 57vw;
+        height: 4.5vw;
+        margin-top: -4vw;
+    }
+    /*parte del cuadro despegable de las opciones de comunicate con un asesor*/
+    details{
+        font-size: 2.5vw;
+    }
+    summary.titulo{
+        padding: 0.6vw 2vw;
+    }
+    .contenido{
+        padding: 1vw 2vw;
+    }
+    p.texto1{
+        margin-left: 1vw;
+        margin-top: -3vw;
+    }
+    img.icono{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    p.texto2{
+        margin-left: 1vw;
+        margin-top: -3vw;
+    }
+    img.icono2{
+        width: 2vw;
+        height: 2vw;
+        margin-top: 1.5vw;
+    }
+    img.icono3{
+        width: 2vw;
+        height: 2vw;
+        margin-top: 1vw;
+    }
+    p.texto3{
+        margin-left: 1vw;
+        margin-top: -3vw;
+    }
+    .flecha{
+        position: absolute;
+        width: 2vw;
+        height: 2vw;
+        margin-left: 52vw;
+    }
 }

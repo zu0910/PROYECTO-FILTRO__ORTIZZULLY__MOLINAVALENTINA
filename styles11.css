@@ -20,6 +20,7 @@ body{
     width: 100vw;
     height: 57vw;
 }
+/*-----------       diseño de la barra superior        ----------------------*/
 .barraSuper{ 
     position: relative;
     height: 3.5vw;
@@ -33,14 +34,15 @@ body{
 .botonImg{
     position: relative;
     left: 5.1vw;
-    width: 1.2vw;
-    height: 1.3vw;
+    width: 1.5vw;
+    height: 1.5vw;
     margin-top: 1vw;
 
 }
 .barraSuper a{
+    font-size: 1.1vw;
     color: black;
-    margin-left: 1vw;
+    margin-left: 2vw;
     margin-top: 1.2vw;
     text-decoration: none;
 }
@@ -64,10 +66,43 @@ body{
     height: 1.3vw;
 }
 .foto{
-    width: 3vw;
-    height: 3vw;
-    margin-top: 0.3vw;
+    width: 2.9vw;
+    height: 2.9vw;
+    margin-top: 0.2vw;
 }
+#fot{
+    display: none;
+}
+.opciones{
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    left: 81vw;
+    top: 4vw;
+    width: 18vw;
+    height: 15vw;
+    border-radius: 2vw;
+}
+.nara{
+    width: 18vw;
+    height: 4vw;
+    background-color: #ff6f2c;
+    border-top-left-radius: 2vw;
+
+}
+.opciones img{
+    position: absolute;
+    z-index: 1;
+    justify-content: center;
+    margin-left: -3vw;
+    border: white 5px solid;
+    border-radius: 5vw;
+    top: 1vw;
+}
+#fot:checked ~ .opciones{
+    display: none;
+}
+/* Contenedor blanco donde se encuantra toda la información de la pagina ayuda*/
 .blanco{
     width: 60vw;
     height: 43vw;
@@ -80,11 +115,13 @@ body{
     margin: 4.5vw 0;
     justify-content: center;
 }
+/* Tamaño ya comodacion del titulo ayuda*/
 .ayuda p.titulo{
     font-size: 3vw;
     margin: 2vw;
     margin-left: 7vw;
 }
+/* ancho y alt y acomodacion del logo ayudar*/
 .ayuda img{
     position: absolute;
     width: 2.3vw;
@@ -92,12 +129,14 @@ body{
     margin-left: -9vw;
     top: 10.5vw;
 }
+/* acodacion del pequeño comntenido */
 .frecu{
     text-align: center;
     font-size: 1.5vw;
     margin-top: -6vw;
     margin-left: 2vw;
 }
+/* cuadros de las preguntas */
 .pregunta{
     width: 46vw;
     height: 1.2vw;
@@ -108,6 +147,7 @@ body{
     font-size: 1.2vw;
     padding: 0.8vw 1vw;
 }
+/* cuadro donde pueden escribir si tienen mas preguntas*/
 .preguntas{
     width: 43vw;
     height: 13vw;
@@ -119,6 +159,7 @@ body{
     font-size: 1.5vw;
     margin: 2vw auto;
 }
+/* ajuste del cuadro de comentarios*/
 textarea{
     margin-top: 1vw;
     border: none;
@@ -128,6 +169,7 @@ textarea{
     font-size: 1.2vw;
     outline: none;
 }
+/*boton de enviar */
 .repor{
     width: 10vw;
     height: 1vw;
@@ -138,4 +180,67 @@ textarea{
     font-size: 1vw;
     border-radius: 2vw;
     background-color: #ff6f2c;
+}
+@media only screen and (max-width : 850px){
+    .blanco{
+        width: 70vw;
+        height: 77vw;
+    }
+    /* Tamaño ya comodacion del titulo ayuda*/
+    .ayuda p.titulo{
+        font-size: 4.3vw;
+        margin: 2vw;
+        margin-left: 10vw;
+    }
+    /* ancho y alt y acomodacion del logo ayudar*/
+    .ayuda img{
+        width: 3vw;
+        height: 3vw;
+        margin-left: -12vw;
+        top: 11vw;
+    }
+    /* acodacion del pequeño comntenido */
+    .frecu{
+        text-align: center;
+        font-size: 2vw;
+        margin-top: -6vw;
+        margin-left: 3.5vw;
+    }
+    /* cuadros de las preguntas */
+    .pregunta{
+        width: 58vw;
+        height: 4.5vw;
+        margin-left: 4vw;
+        border: #ff6f2c 0.11vw solid;
+        border-radius: 1vw;
+        font-family: "letra2";
+        margin-top: 2vw;
+        font-size: 3vw;
+        padding: 0.9vw 2vw;
+    }
+    /* cuadro donde pueden escribir si tienen mas preguntas*/
+    .preguntas{
+        width: 55vw;
+        height: 24vw;
+        margin-left: 8vw;
+        border: #ff6f2c 0.11vw solid;
+        text-align: center;
+        border-radius: 2vw;
+        font-size: 2vw;
+        margin: 4vw auto;
+    }
+    /* ajuste del cuadro de comentarios*/
+    textarea{
+        width: 43vw;
+        height: 9vw;
+        font-size: 2vw;
+    }
+    /*boton de enviar */
+    .repor{
+        width: 13vw;
+        height: 2vw;
+        margin: 1vw auto;
+        font-size: 2vw;
+        border-radius: 2vw;
+    }
 }
