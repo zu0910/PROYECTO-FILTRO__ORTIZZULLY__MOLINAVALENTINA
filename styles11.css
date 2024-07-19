@@ -20,9 +20,8 @@ body{
     width: 100vw;
     height: 57vw;
 }
-/*-----------       diseño de la barra superior        ----------------------*/
+/*-----------       barra superior 1       ----------------------*/
 .barraSuper{ 
-   /* position: relative;*/
    background-color: white;
    display: flex;
    justify-content: space-around;
@@ -30,44 +29,30 @@ body{
    width: 100vw;
    height: 3.5vw;
 }
-
-.barraSuper2{
-    display: none;
-}
 .botonImg{
     display: flex;
     justify-content: space-around;
-
     margin-right: 1vw;
     width: 1.5vw;
     height: 1.5vw;
-    
-
 }
 .barraSuper a{
-    
     text-decoration: none;
     color: black;
     font-size: 1vw;
     display: flex;
     align-items: center;
-   
-  
     text-decoration: none;
 }
 .loguito{
-    width: 1.5vw;
-    height: 1.5;
-    margin-left: 7vw;
+    width: 1.8vw;
+    height: 1.8vw;
 }
-
 .menuDerecho{
     display: flex;
     align-items: center;
-    
 }
 .img1{
-    
    margin-right: 1vw;
     width: 1.2vw;
     height: 1.3vw;
@@ -81,108 +66,116 @@ body{
 .foto{
     width: 2.9vw;
     height: 2.9vw;
-    margin-top: 0.2vw;
+}
+/* opciones del checkbox de la foto de pedro*/
+#fot:checked ~ .opciones{
+    display: none;
 }
 #fot{
     display: none;
 }
 .opciones{
-    text-align: center;
     background-color: white;
-    position: absolute;
-    left: 81vw;
-    top: 4vw;
-    width: 18vw;
+    margin-top: 20vw;
+    margin-left: -19vw;
+    width: 19vw;
     height: 15vw;
     border-radius: 2vw;
 }
 .nara{
-    width: 18vw;
+    width: 19vw;
     height: 4vw;
     background-color: #ff6f2c;
     border-top-left-radius: 2vw;
-
-}
-.opciones img{
-    position: absolute;
-    z-index: 1;
-    justify-content: center;
-    margin-left: -3vw;
-    border: white 5px solid;
-    border-radius: 5vw;
-    top: 1vw;
-}
-#fot:checked ~ .opciones{
-    display: none;
-}
-p.pedrito{
-    font-family: letra1;
-    font-size: 1.2vw;
-    margin-top: 3vw;
-}
-.email{
-    font-family: letra2;
-    font-size: 1vw;
-}
-.opciones a.add{
-    position: absolute;
-    left: -1vw;
-    text-decoration: none;
-    color: white;
-    width: 6vw;
-    height: 2vw;
-    text-align: center;
-    background-color: #ff6f2c;
-    border-bottom-left-radius: 2vw;
-    border-top-left-radius: 2vw;
-}
-.opciones a.sign{
-    position: absolute;
-    left: 2vw;
-    text-decoration: none;
-    color: white;
-    width: 7vw;
-    height: 2vw;
-    background-color: #ff6f2c;
-    border-bottom-right-radius: 2vw;
     border-top-right-radius: 2vw;
 }
-/* Contenedor blanco donde se encuantra toda la información de la pagina ayuda*/
+.opciones img{
+    margin-left: 7vw;
+    margin-top: -2vw;
+    width: 5vw;
+    height: 5vw;
+    border: white 0.4vw solid;
+    border-radius: 6vw;
+}
+p.pedrito{
+    font-size: 1.3vw;
+    font-family: letra1;
+    text-align: center;
+}
+.email{
+    font-size: 1vw;
+    font-family: letra2;
+    text-align: center;
+}
+.opciones a.add{
+    width: 7.2vw;
+    height: 1vw;
+    background-color: white;
+    color: black;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.3vw;
+    border-top-left-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    justify-content: center;
+    border: #ff6f2c 0.11vw solid;
+}
+.opciones a.sign{
+    width: 7.2vw;
+    height: 1vw;
+    background-color: white;
+    color: black;
+    border: #ff6f2c 0.11vw solid;
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: -1.94vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.3vw;
+    border-top-right-radius: 0.5vw;
+    justify-content: center;
+    border-bottom-right-radius: 0.5vw;
+}
+/*desaparecer el menu hamburguesa*/
+.barraSuper2{
+    display: none;
+}
+/*Contenedor blanco*/
 .blanco{
     width: 60vw;
-    height: 43vw;
+    height: 46vw;
     background-color: white;
     border-radius: 4vw;
     margin: 5vw auto;
 }
 .ayuda{
     display: flex;
-    margin: 4.5vw 0;
+    margin:  4vw 0vw;
     justify-content: center;
 }
 /* Tamaño ya comodacion del titulo ayuda*/
-.ayuda p.titulo{
+.titulo{
     font-size: 3vw;
-    margin: 2vw;
-    margin-left: 7vw;
+    margin:  3vw 0;
+    margin-left: 3vw;
 }
 /* ancho y alt y acomodacion del logo ayudar*/
 .ayuda img{
-    position: absolute;
     width: 2.3vw;
     height: 2.3vw;
-    margin-left: -9vw;
-    top: 10.5vw;
+    margin-right: 1vw;
 }
 /* acodacion del pequeño comntenido */
 .frecu{
+    font-family: letra2;
     text-align: center;
     font-size: 1.5vw;
     margin-top: -6vw;
-    margin-left: 2vw;
+    margin-left: 2.9vw;
 }
 /* cuadros de las preguntas */
 .pregunta{
+    font-family: letra2;
     width: 46vw;
     height: 1.2vw;
     margin-left: 6vw;
@@ -195,7 +188,7 @@ p.pedrito{
 /* cuadro donde pueden escribir si tienen mas preguntas*/
 .preguntas{
     width: 43vw;
-    height: 13vw;
+    height: 16vw;
     margin-left: 8vw;
     border: #ff6f2c 0.11vw solid;
     text-align: center;
@@ -206,97 +199,217 @@ p.pedrito{
 }
 /* ajuste del cuadro de comentarios*/
 textarea{
-    margin-top: 1vw;
+    margin-top: -0.5vw;
     border: none;
     background-color: rgb(221, 219, 219);
-    width: 33vw;
-    height: 5vw;
+    width: 34vw;
+    height: 6vw;
     font-size: 1.2vw;
     outline: none;
+    margin-left: 2vw;
 }
 /*boton de enviar */
 .repor{
-    width: 10vw;
+    width: 5vw;
     height: 1vw;
-    padding: 1vw 1vw;
-    margin: 1vw auto;
+    padding: 1vw 2vw;
     text-align: center;
     color: white;
     font-size: 1vw;
+    text-decoration: none;
     border-radius: 2vw;
     background-color: #ff6f2c;
+    position: relative;
+    top: 1vw;
 }
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : 850px){
+    body{
+        background-color: black;
+        background-image: url(image/pexels-pixabay-159400@2x.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fondo{
+        width: 100vw;
+        height: 130vw;
+    }
     .barraSuper{
         display: none;
     }
-
     .barraSuper2{
-        width: 30vw;
+        width: 100vw;
         display: block;
         background-color: white;
-        height: 10vw;
+        height: 13vw;
     }
-    
+    #menucito2:checked ~ .hambur{
+        display: none;
+    }
+    #fot2:checked ~ .opciones2{
+        display: none;
+    }
+    #fot2{
+        display: none;
+    }
+    /*parte derecha de la barra superior*/
+    .menuDerecho2{
+        align-items: center;
+        margin-left: 72vw;
+        margin-top: -3vw;
+    }
+    .img12{
+        position: relative;
+        top: -4vw;
+        margin-right: 2vw;
+        width: 5vw;
+        height: 5vw;
+    }
+    .img22{
+        margin-right: 2vw;
+        width: 5vw;
+        height: 5vw;
+        position: relative;
+        top: -4vw;
+    }
+    .foto2{
+        margin-right: 2vw;
+        width: 10vw;
+        height: 10vw;
+        margin-top: -7vw;
+        margin-left: 8vw;
+    }
+    .opciones2{
+        position: absolute;
+        background-color: white;
+        width: 40vw;
+        height: 37vw;
+        border-radius: 2vw;
+        margin-left: -14vw;
+        z-index: 1;
+    }
+    .nara2{
+        width: 40vw;
+        height: 9vw;
+        background-color: #ff6f2c;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+    }
+    .opciones2 img{
+        margin-left: 14vw;
+        margin-top: -5vw;
+        width: 12.5vw;
+        height: 12.5vw;
+        border: white 0.6vw solid;
+        border-radius: 8vw;
+    }
+    p.pedrito2{
+        font-size: 2.7vw;
+        font-family: letra1;
+        text-align: center;
+    }
+    .email2{
+        font-size: 3vw;
+        font-family: letra2;
+        text-align: center;
+    }
+    a.add2{
+        font-size: 3vw;
+        text-decoration: none;
+        color: black;
+        width: 5vw;
+        height: 1vw;
+        border: #ff6f2c 1px solid;
+        border-top-left-radius: 1vw;
+        border-bottom-left-radius: 1vw;
+        margin-left: 5vw;
+    }
+    a.sign2{
+        font-size: 3vw;
+        padding: 0 2vw;
+        text-decoration: none;
+        color: black;
+        height: 1vw;
+        width: 3vw;
+        border: #ff6f2c 1px solid;
+        border-top-right-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+    }
+    /*menu hamburguesa*/
+    #menucito2{
+        display: none;
+    }
+    label.iconoMenu{
+        font-size: 10vw;
+        margin-left: 2vw;
+    }
+    .hambur{
+        background-color: white;
+        display: grid;
+        width: 40vw;
+        z-index: 1;
+        position: absolute;
+
+    }
+    .botonImg2{
+        width: 6vw;
+        height: 6vw;
+    }
+    .hambur a{
+        text-decoration: none;
+        margin: 5vw;
+        color: black;
+    }
     .blanco{
-        width: 70vw;
-        height: 77vw;
+        width: 65vw;
+        height: 93vw;
     }
     /* Tamaño ya comodacion del titulo ayuda*/
-    .ayuda p.titulo{
-        font-size: 4.3vw;
-        margin: 2vw;
-        margin-left: 10vw;
+    .titulo{
+        font-size: 5.5vw;
     }
     /* ancho y alt y acomodacion del logo ayudar*/
     .ayuda img{
-        width: 3vw;
-        height: 3vw;
-        margin-left: -12vw;
-        top: 11vw;
+        width: 4vw;
+        height: 4vw;
     }
     /* acodacion del pequeño comntenido */
     .frecu{
-        text-align: center;
-        font-size: 2vw;
-        margin-top: -6vw;
-        margin-left: 3.5vw;
+        font-size: 2.5vw;
     }
     /* cuadros de las preguntas */
     .pregunta{
-        width: 58vw;
-        height: 4.5vw;
-        margin-left: 4vw;
-        border: #ff6f2c 0.11vw solid;
-        border-radius: 1vw;
-        font-family: "letra2";
+        font-family: letra2;
+        width: 53vw;
+        height: 5vw;
+        margin-left: 5vw;
         margin-top: 2vw;
         font-size: 3vw;
-        padding: 0.9vw 2vw;
+        padding: 0.8vw 1vw;
     }
     /* cuadro donde pueden escribir si tienen mas preguntas*/
     .preguntas{
-        width: 55vw;
-        height: 24vw;
-        margin-left: 8vw;
-        border: #ff6f2c 0.11vw solid;
-        text-align: center;
-        border-radius: 2vw;
-        font-size: 2vw;
+        width: 50vw;
+        height: 32vw;
+        font-size: 2.9vw;
         margin: 4vw auto;
     }
     /* ajuste del cuadro de comentarios*/
     textarea{
-        width: 43vw;
-        height: 9vw;
-        font-size: 2vw;
+        margin-top: -0.5vw;
+        border: none;
+        background-color: rgb(221, 219, 219);
+        width: 44vw;
+        height: 11vw;
     }
     /*boton de enviar */
     .repor{
-        width: 13vw;
-        height: 2vw;
-        margin: 1vw auto;
-        font-size: 2vw;
-        border-radius: 2vw;
+        width: 14vw;
+        height: 3vw;
+        padding: 1.5vw 1.5vw;
+        position: relative;
+        top: 3vw;
+        text-align: center;
+        color: white;
+        font-size: 3vw;
     }
 }
