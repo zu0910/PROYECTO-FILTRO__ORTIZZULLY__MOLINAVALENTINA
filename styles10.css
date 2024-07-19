@@ -208,12 +208,12 @@ textarea{
     font-family: letra1;
     width: 9vw;
     height: 2vw;
-    padding: 0.5vw;
+    padding: 0.5vw 3vw;
     text-align: center;
     margin: 1.4vw auto;
     color: white;
     font-size: 1.5vw;
-    margin-left: 35vw;
+    margin-left: 28vw;
     text-decoration: none;
     border-radius: 0.5vw;
     background-color: #ff6f2c;
@@ -477,6 +477,7 @@ p.texto3:hover{
         font-size: 4vw;
         position: relative;
         top: -2vw;
+        left: -1vw;
         right: 9vw;
     }
     /* ultimo cuadro */
