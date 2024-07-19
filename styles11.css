@@ -185,6 +185,13 @@ p.pedrito{
     margin-top: 1vw;
     font-size: 1.2vw;
     padding: 0.8vw 1vw;
+    transition: all;
+    cursor: pointer;
+}
+.pregunta:hover{
+    background-color: rgb(219, 219, 219);
+    transform: scale(1.1);
+   
 }
 /* cuadro donde pueden escribir si tienen mas preguntas*/
 .preguntas{
