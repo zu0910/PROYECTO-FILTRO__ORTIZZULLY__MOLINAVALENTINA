@@ -2,7 +2,7 @@
 
 Kario Media es un Aplicativo Web donde su función es mostrar el panel de gestionamiento de proyectos, donde tendra varios modulos para su funcionalidad los que son: Añadir, Eliminar, Reportar, Ayuda y perfil (Long-In y Long-Out)
 
-## Descripción
+## Descripción 
 
 El Aplicativo web contiene siete partes fundamentales:
 
@@ -23,4 +23,5 @@ El Aplicativo web contiene siete partes fundamentales:
 
 ![Estructura del Proyecto](<Estructura_del_Proyecto.PNG>)
 
-## Cara
+## Cararacterísticas
+ 

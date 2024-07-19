@@ -6,71 +6,147 @@
     font-family: letra2;
     src: url(fuente/MyriadPro-Light.otf);
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: black;
+    background-image: url(image/pexels-pixabay-159400@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .fondo{
-    width: 98.5vw;
-    height: 50vw;
+    width: 100vw;
+    height: 57vw;
 }
+/*-----------       barra superior 1       ----------------------*/
 .barraSuper{ 
-    position: relative;
-    height: 3.5vw;
-    margin-top: -50.6vw;
-    margin-left: -0.2vw;
     background-color: white;
-    z-index: 2;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 3.5vw;
+ }
+ .botonImg{
+     display: flex;
+     justify-content: space-around;
+     margin-right: 1vw;
+     width: 1.5vw;
+     height: 1.5vw;
+ }
+ .barraSuper a{
+     text-decoration: none;
+     color: black;
+     font-size: 1vw;
+     display: flex;
+     align-items: center;
+ }
+ .loguito{
+     width: 1.8vw;
+     height: 1.8vw;
+ }
+ .menuDerecho{
+     display: flex;
+     align-items: center;
+ }
+ .img1{
+    margin-right: 1vw;
+     width: 1.2vw;
+     height: 1.3vw;
+ }
+ .img2{
+     
+     margin-right: 1vw;
+     width: 1.2vw;
+     height: 1.3vw;
+ }
+ .foto{
+     width: 2.9vw;
+     height: 2.9vw;
+ }
+ #fot:checked ~ .opciones{
+    display: none;
 }
-.botonImg{
-    position: relative;
-    left: 5.1vw;
-    width: 1.2vw;
-    height: 1.3vw;
-    margin-top: 1vw;
-
+#fot{
+    display: none;
 }
-.barraSuper a{
-    color: black;
-    margin-left: 1vw;
-    margin-top: 1.2vw;
-    text-decoration: none;
+.opciones{
+    background-color: white;
+    margin-top: 20vw;
+    margin-left: -19vw;
+    width: 19vw;
+    height: 15vw;
+    border-radius: 2vw;
 }
-.loguito{
-    width: 1.5vw;
-    height: 1.5;
+.nara{
+    width: 19vw;
+    height: 4vw;
+    background-color: #ff6f2c;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+.opciones img{
     margin-left: 7vw;
+    margin-top: -2vw;
+    width: 5vw;
+    height: 5vw;
+    border: white 0.4vw solid;
+    border-radius: 6vw;
 }
-.img1{
-    position: relative;
-    left: 5vw;
+p.pedrito{
+    font-size: 1.3vw;
+    font-family: letra1;
+    text-align: center;
+}
+.email{
+    font-size: 1vw;
+    font-family: letra2;
+    text-align: center;
+}
+.opciones a.add{
+    width: 7.2vw;
+    height: 1vw;
+    background-color: white;
+    color: black;
     margin-top: 1vw;
-    width: 1.2vw;
-    height: 1.3vw;
+    margin-left: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.3vw;
+    border-top-left-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    justify-content: center;
+    border: #ff6f2c 0.11vw solid;
 }
-.img2{
-    position: relative;
-    left: 2.7vw;
-    margin-top: 1vw;
-    width: 1.2vw;
-    height: 1.3vw;
-
+.opciones a.sign{
+    width: 7.2vw;
+    height: 1vw;
+    background-color: white;
+    color: black;
+    border: #ff6f2c 0.11vw solid;
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: -1.94vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.3vw;
+    border-top-right-radius: 0.5vw;
+    justify-content: center;
+    border-bottom-right-radius: 0.5vw;
 }
-.foto{
-    width: 3vw;
-    height: 3vw;
-    margin-top: 0.3vw;
-}
+ /*-----------    desaparecer   barra superior 2      ----------------------*/
+ /*desaparecer el menu hamburguesa*/
+ .barraSuper2{
+     display: none;
+ }
 /*---------------------------------------------*/
 .bloqueAñadir{
     position: relative;
-    margin-top: 5vw;
+    margin-top: 2vw;
     margin-left: 31vw;
     width: 40VW;
-    height: 39vw;
+    height: 48vw;
     background-color: white;
-    display:grid;
     justify-content: center;
     border-radius: 2vw;
 }
@@ -81,22 +157,27 @@ body{
 .letras img{
     width: 2vw;
     height: 2vw;
-    margin-top: 1.5vw;
+    margin-left: 2vw;
+    margin-top: 2.5vw;
 }
 .titulo{
     position: relative;
-    left: 0.4vw;
-    top: -0.6vw;
-    font-size: 1.9vw;
-    font-family: letra1;
+    left: vw;
+    top: 2.4vw;
+    font-size: 2vw;
 }
 .letrasPq{
-    margin-top: 4vw;
-    margin-left: -9.4vw;
-    font-size: 1.1vw;
+    margin-top: 6vw;
+    margin-left: -10.9vw;
+    font-size: 1.3vw;
     font-family: letra2;
 }
-.input input{
+.variosInp{
+    margin-top:1vw;
+}
+.variosInp input{
+    margin-left: 5vw;
+    margin-top: 1vw;
     width: 30vw;
     height: 1.8vw;
     border-radius: 0.8vw;
@@ -108,11 +189,203 @@ body{
 .botonAñEle{
     width: 13vw;
     height: 2.4vw;
-    margin-top: -1vw;
-    margin-left: 9vw;
+    margin-top:3vw;
+    margin-left: 13vw;
     border-radius: 1vw;
     background-color: #ff741c;
 }
-.botonAñEle p{
-    margin-left: 2.2vw;
+.botonAñEle a {
+    position: relative;
+    top: 0.5vw;
+    color: white;
+    font-size: 1.2vw;
+    margin-left: 1.7vw;
+    font-family: letra2;
+    text-decoration: none;
+}
+@media only screen and (max-width : 850px){
+    body{
+        background-color: black;
+        background-image: url(image/pexels-pixabay-159400@2x.png);
+        background-repeat: no-repeat;
+        background-size: 100vw 120vw;
+    }
+    .fondo{
+        width: 100vw;
+        height: 130vw;
+    }
+    .barraSuper{
+        display: none;
+    }
+    .barraSuper2{
+        width: 100vw;
+        display: block;
+        background-color: white;
+        height: 13vw;
+    }
+    #menucito2:checked ~ .hambur{
+        display: none;
+    }
+    #fot2:checked ~ .opciones2{
+        display: none;
+    }
+    #fot2{
+        display: none;
+    }
+    /*parte derecha de la barra superior*/
+    .menuDerecho2{
+        align-items: center;
+        margin-left: 72vw;
+        margin-top: -3vw;
+    }
+    .img12{
+        position: relative;
+        top: -4vw;
+        margin-right: 2vw;
+        width: 5vw;
+        height: 5vw;
+    }
+    .img22{
+        margin-right: 2vw;
+        width: 5vw;
+        height: 5vw;
+        position: relative;
+        top: -4vw;
+    }
+    .foto2{
+        margin-right: 2vw;
+        width: 10vw;
+        height: 10vw;
+        margin-top: -7vw;
+        margin-left: 8vw;
+    }
+    .opciones2{
+        position: absolute;
+        background-color: white;
+        width: 40vw;
+        height: 37vw;
+        border-radius: 2vw;
+        margin-left: -14vw;
+        z-index: 1;
+    }
+    .nara2{
+        width: 40vw;
+        height: 9vw;
+        background-color: #ff6f2c;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+    }
+    .opciones2 img{
+        margin-left: 14vw;
+        margin-top: -5vw;
+        width: 12.5vw;
+        height: 12.5vw;
+        border: white 0.6vw solid;
+        border-radius: 8vw;
+    }
+    p.pedrito2{
+        font-size: 2.7vw;
+        font-family: letra1;
+        text-align: center;
+    }
+    .email2{
+        font-size: 3vw;
+        font-family: letra2;
+        text-align: center;
+    }
+    a.add2{
+        font-size: 3vw;
+        text-decoration: none;
+        color: black;
+        width: 5vw;
+        height: 1vw;
+        border: #ff6f2c 1px solid;
+        border-top-left-radius: 1vw;
+        border-bottom-left-radius: 1vw;
+        margin-left: 5vw;
+    }
+    a.sign2{
+        font-size: 3vw;
+        padding: 0 2vw;
+        text-decoration: none;
+        color: black;
+        height: 1vw;
+        width: 3vw;
+        border: #ff6f2c 1px solid;
+        border-top-right-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+    }
+    /*menu hamburguesa*/
+    #menucito2{
+        display: none;
+    }
+    label.iconoMenu{
+        font-size: 10vw;
+        margin-left: 2vw;
+    }
+    .hambur{
+        background-color: white;
+        display: grid;
+        width: 40vw;
+        z-index: 1;
+        position: absolute;
+
+    }
+    .botonImg2{
+        width: 6vw;
+        height: 6vw;
+    }
+    .hambur a{
+        text-decoration: none;
+        margin: 5vw;
+        color: black;
+    }
+}
+@media screen and (max-width:431px) {
+    .bloqueAñadir{
+        left: -16vw;
+        bottom: -10vw;
+        width: 70vw;
+        height: 74vw;
+    }
+    .variosInp{
+        width: 80vw;
+    }
+    .variosInp input{
+        outline: none;
+        width:45vw;
+        height: 3vw;
+        border-bottom-width: 0.1vw;
+        border-top-width: 0.1vw;
+        border-left-width: 0.1vw;
+        border-right-width: 0.1vw;
+    }
+    input.inp{
+        margin: 1vw 13vw;
+    }
+    .botonAñEle{
+        width: 20vw;
+        height:5vw;
+        margin-top:2vw;
+        margin-left: 6.5em;
+    }
+    .botonAñEle p{
+        position: relative;
+        top: 1.5vw;
+        font-size: 2.1vw;
+    }
+    .letras img{
+        width: 4vw;
+        height: 4vw; 
+        margin-top: 3.5vw;   
+    }
+    .titulo{
+        margin-top: 0.1vw;
+        font-size: 5vw;
+    }
+    .letrasPq{
+        font-size: 2vw;
+        margin-top: 8vw;
+        margin-left: -22vw;
+    }
 }

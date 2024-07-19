@@ -136,6 +136,7 @@ p.pedrito{
     justify-content: center;
     border-bottom-right-radius: 0.5vw;
 }
+/*-----------    desaparecer   barra superior 2      ----------------------*/
 /*desaparecer el menu hamburguesa*/
 .barraSuper2{
     display: none;

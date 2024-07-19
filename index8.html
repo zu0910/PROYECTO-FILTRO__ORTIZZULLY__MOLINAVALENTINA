@@ -7,48 +7,90 @@
     <link rel="stylesheet" href="styles8.css">
 </head>
 <body>
-    <img class="fondo" src="img/fondo.png">
     <div class="barraSuper">
-
-        <img class="botonImg" src="image/mas.png">
-        <a href="index8.html">Añadir</a>
-
-        <img class="botonImg" src="image/recargar.png">
-        <a href="index8.html">Refrescar</a>
-
-        <img class="botonImg" src="image/delete.png">
-        <a href="index9.html">Eliminar</a>
-
+        <a href="index8.html"><img class="botonImg" src="image/mas.png">Añadir</a>
+        <a href="index7.html"><img class="botonImg" src="image/recargar.png">Refrescar</a>
+        <a href="index9.html"><img class="botonImg" src="image/delete.png">Eliminar</a>
         <img class="loguito" src="img/logo.svg">
-
-        <img class="botonImg" src="image/reportar.png">
-        <a href="index10.html">Reportar</a>
-
-        <img class="botonImg" src="image/ayuda.png">
-        <a href="index11.html">Ayuda</a>
-
-        <img class="img1" src="image/ajustes.png" alt="">
-        <img class="img2" src="image/noti.png" alt="">
-        <img class="foto" src="image/fotopedro.png" alt="">
+        <a href="index10.html"><img class="botonImg" src="image/reportar.png">Reportar</a>
+        <a href="index11.html"><img class="botonImg" src="image/ayuda.png">Ayuda</a>
+        <div class="menuDerecho">
+            <img class="img1" src="image/ajustes.png" alt="">
+            <img class="img2" src="image/noti.png" alt="">
+            <input class="fot" id="fot" type="checkbox">
+            <div class="foto">
+                <label for="fot">
+                    <img class="foto" src="image/fotopedro.png">
+                </label>
+            </div>
+            <!-- opciones -->
+            <div class="opciones">
+                <div class="nara"></div>
+                <img src="image/fotopedro.png">
+                <p class="pedrito">Pedro Felipe</p>
+                <p class="email">pedrofeli.09100@gmail.com</p>
+                <a class="add" href="#">Add account</a>
+                <a class="sign" href="#"> Sign out</a>
+            </div>
+        </div>
     </div>
+
+    <!-- menu hamburguesa -->
+    <div class="barraSuper2">
+        <input id="menucito2" type="checkbox">
+        <label class="iconoMenu" for="menucito2">&#9776;</label>
+        <div class="hambur">
+            <a href="index8.html"><img class="botonImg2" src="image/mas.png">ㅤAñadir</a>
+            <hr>
+            <a href="index8.html"><img class="botonImg2" src="image/recargar.png">ㅤRefrescar</a>
+            <hr>
+            <a href="index9.html"><img class="botonImg2" src="image/delete.png">ㅤEliminar</a>
+            <hr>
+            <a href="index10.html"><img class="botonImg2" src="image/reportar.png">ㅤReportar</a>
+            <hr>
+            <a href="index11.html"><img class="botonImg2" src="image/ayuda.png">ㅤAyuda</a>
+        </div>
+        
+        <div class="menuDerecho2">
+            <img class="img12" src="image/ajustes.png" alt="">
+            <img class="img22" src="image/noti.png" alt="">
+            <input class="fot2" id="fot2" type="checkbox">
+            <div class="foto2">
+                <label for="fot2">
+                    <img class="foto2" src="image/fotopedro.png">
+                </label>
+            </div>
+            <!-- opciones -->
+            <div class="opciones2">
+                <div class="nara2"></div>
+                <img src="image/fotopedro.png">
+                <p class="pedrito2">Pedro Felipe</p>
+                <p class="email2">pedrofeli.09100@gmail.com</p>
+                <br>
+                <a class="add2" href="#">Add account</a>
+                <a class="sign2" href="#"> Sign out</a>
+            </div>
+        </div>
+    </div>
+
     <div class="bloqueAñadir">
         <div class="letras">
             <img src="image/mas.png">
             <p class="titulo">AÑADIR</p>
             <P class="letrasPq">Rellena los siguientes campos <br>si deseas añadir un indicador</P>
         </div>
-        <div class="input">
-            <input type="text" placeholder="ㅤIndicador"><br><br>
-            <input type="text" placeholder="ㅤDescripción"><br><br>
-            <input type="text" placeholder="ㅤCategoría"><br><br>
-            <input type="text" placeholder="ㅤFecha de inicio"><br><br>
-            <input type="text" placeholder="ㅤFecha de Terminación"><br><br>
-            <input type="text" placeholder="ㅤFormula"><br><br>
-            <input type="text" placeholder="ㅤFrecuencia"><br><br>
-            <input type="text" placeholder="ㅤCumplimiento"><br><br>
-            <input type="text" placeholder="ㅤArea"><br><br>
+        <div class="variosInp">
+            <input class="inp" type="text" placeholder="ㅤIndicador"><br>
+            <input class="inp" type="text" placeholder="ㅤDescripción"><br>
+            <input class="inp" type="text" placeholder="ㅤCategoría"><br>
+            <input class="inp" type="text" placeholder="ㅤFecha de inicio"><br>
+            <input class="inp" type="text" placeholder="ㅤFecha de Terminación"><br>
+            <input class="inp" type="text" placeholder="ㅤFormula"><br>
+            <input class="inp" type="text" placeholder="ㅤFrecuencia"><br>
+            <input class="inp" type="text" placeholder="ㅤCumplimiento"><br>
+            <input class="inp" type="text" placeholder="ㅤArea"><br>
         </div>
-        <div class="botonAñEle"><p>AÑADIR ELEMENTO</p></div>
+        <div class="botonAñEle"><a href="index7.html">AÑADIR ELEMENTO</a></div>
     </div>
 </body>
 </html>
