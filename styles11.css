@@ -69,12 +69,13 @@ body{
 }
 /* opciones del checkbox de la foto de pedro*/
 #fot:checked ~ .opciones{
-    display: none;
+    display: block;
 }
 #fot{
     display: none;
 }
 .opciones{
+    display: none;
     background-color: white;
     margin-top: 20vw;
     margin-left: -19vw;
@@ -139,6 +140,9 @@ p.pedrito{
 /*-----------    desaparecer   barra superior 2      ----------------------*/
 /*desaparecer el menu hamburguesa*/
 .barraSuper2{
+    display: none;
+}
+.hambur{
     display: none;
 }
 /*Contenedor blanco*/
@@ -251,10 +255,10 @@ textarea{
         height: 13vw;
     }
     #menucito2:checked ~ .hambur{
-        display: none;
+        display: grid;
     }
     #fot2:checked ~ .opciones2{
-        display: none;
+        display: block;
     }
     #fot2{
         display: none;
@@ -287,6 +291,7 @@ textarea{
         margin-left: 8vw;
     }
     .opciones2{
+        display: none;
         position: absolute;
         background-color: white;
         width: 40vw;
@@ -342,7 +347,7 @@ textarea{
         border-top-right-radius: 1vw;
         border-bottom-right-radius: 1vw;
     }
-    /*menu hamburguesa*/
+    /*menu hamburguesa cuadro*/
     #menucito2{
         display: none;
     }
@@ -350,9 +355,10 @@ textarea{
         font-size: 10vw;
         margin-left: 2vw;
     }
+    /*opciones del menu */
     .hambur{
         background-color: white;
-        display: grid;
+        display: none;
         width: 40vw;
         z-index: 1;
         position: absolute;

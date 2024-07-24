@@ -69,12 +69,13 @@ body{
 }
 /* opciones del checkbox de la foto de pedro*/
 #fot:checked ~ .opciones{
-    display: none;
+    display: block;
 }
 #fot{
     display: none;
 }
 .opciones{
+    display: none;
     background-color: white;
     margin-top: 20vw;
     margin-left: -19vw;
@@ -312,10 +313,10 @@ p.texto3:hover{
         height: 13vw;
     }
     #menucito2:checked ~ .hambur{
-        display: none;
+        display: grid;
     }
     #fot2:checked ~ .opciones2{
-        display: none;
+        display: block;
     }
     #fot2{
         display: none;
@@ -348,6 +349,7 @@ p.texto3:hover{
         margin-left: 8vw;
     }
     .opciones2{
+        display: none;
         position: absolute;
         background-color: white;
         width: 40vw;
@@ -413,7 +415,7 @@ p.texto3:hover{
     }
     .hambur{
         background-color: white;
-        display: grid;
+        display: none;
         width: 40vw;
         z-index: 1;
         position: absolute;
